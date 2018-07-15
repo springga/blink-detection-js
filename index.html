@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>Blink</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://download.affectiva.com/js/3.2/affdex.js"></script>
+  <script src="https://cdn.bootcss.com/echarts/4.1.0.rc2/echarts.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="blink.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="row top">
+      <div class="col-md-8 left">
+        <div id="camera"></div>
+      </div>
+      <div class="col-md-4 right">
+        <h4>Blinks</h4>
+        <div id="game">
+          <div id="target">?</div>
+          <div id="score">?</div>
+        </div>
+        <div id="controls">
+          <button id="start" onclick="onStart()">Start</button>
+          <button id="stop" onclick="onStop()">Stop</button>
+          <button id="reset" onclick="onReset()">Reset</button>
+        </div>
+        <div id="appearance">
+        </div>
+      </div>
+    </div>
+    <div class="row bottom">
+      <div class="col-md-8 left" id="instructions">
+        <div id="results-container">
+          <div id="results"></div>
+        </div>
+      </div>
+      <div class="col-md-4 right">
+        <div id="logs-container">
+          <h5>DETECTOR LOG MSGS</h5>
+          <p id="logs"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="blink.js"></script>
+</body>
+</html>

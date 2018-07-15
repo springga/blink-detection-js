@@ -1,0 +1,35 @@
+body { margin:0 auto; }
+
+div.left {
+  border-right: 1px solid #ccc;
+}
+
+div.top {
+  border-bottom: 1px solid #ccc;
+}
+
+#camera { width: 640; height: 480px; padding: 0; }
+
+#game { height: 120px; }
+
+#target {
+  height: 80px;
+  font-family: Arial, sans-serif; font-size: 48pt;
+}
+
+#score {
+  font-family: Courier, monospace; font-size: 12pt; font-weight: bold;
+}
+
+#results {
+  width: 640px; 
+  height: 150px;
+}
+
+#appearance {
+  margin-top: 10px;
+}
+
+#logs {
+  font-size: 10pt;
+}
