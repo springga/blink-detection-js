@@ -1,4 +1,4 @@
-# Project: Blink detection and counter
+# Blink detection and counter
 
 
 ### Initiative
