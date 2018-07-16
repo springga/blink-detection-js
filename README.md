@@ -3,11 +3,11 @@
 
 ### Initiative
 
-It's so easy to stare the screen for too long and forget to blink!
+It's so easy to stare at the screen for too long and forget to blink!
 So comes this blink detection.
-But it can only detect and count blinks on webpage for now.
+But it can only detect and count blinks for now.
 A reminder will follow if the blink detection engine becomes more efficient.
-(The program burns your CPU while it runs!)
+(The CPU burns while it runs!)
 
 
 ### Acknowledgement
@@ -19,9 +19,15 @@ Most of the code (including Get Started below) are from Udacity's [AIND-CV-Mimic
 
 ### Get Started
 
+Two ways to start:
+
+1. [Demo page](https://springga.github.io/blink-detection-js/)
+
+2. Run locally:
+
 In order to access the webcam stream, modern browsers require you to serve your web app over HTTPS. To run locally, you will need to general an SSL certificate (this is a one-time step):
 
-- Open a terminal or command-prompt, and ensure you are inside the `AIND-CV-Mimic/` directory.
+- Open a terminal or command-prompt, and ensure you are inside the `blink-detection-js` directory.
 - Run the following shell script: `generate-pemfile.sh`
 
 This creates an SSL certificate file named `my-ssl-cert.pem` that is used to serve over https.
@@ -33,8 +39,6 @@ python serve.py
 ```
 
 _Note: The `serve.py` script uses Python 3._
-
-Alternately, you can put your HTML, JS and CSS files on an online platform (such as [JSFiddle](https://jsfiddle.net/)) and develop your project there.
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. Please refer to [Udacity Terms of Service](https://www.udacity.com/legal) for further information.
